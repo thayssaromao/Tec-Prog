@@ -1,0 +1,10 @@
+
+//Java não tem ponteiros porque não há variáveis declaradas explicitamente como 
+//ponteiros para outros objetos, como em C ou Pascal. Porém, 
+//todas as variáveis de tipos não primitivos são na verdade referências,
+//ou seja, ponteiros.
+
+//Java não tem ponteiros porque não há variáveis declaradas explicitamente como 
+//ponteiros para outros objetos, como em C ou Pascal. Porém, 
+//todas as variáveis de tipos não primitivos são na verdade referências,
+//ou seja, ponteiros.
