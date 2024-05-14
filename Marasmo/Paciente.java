@@ -42,7 +42,7 @@ public Paciente(String nome, double pesoAtual, double pesoUsual) {
 // Outros métodos
 
 public static double Calcular_Marasmo(double pesoUsual, double pesoAtual){
-    return((((double)pesoUsual - pesoAtual)/pesoUsual)*100);
+    return((pesoAtual/(double)pesoUsual)*100);
 }
 
 
@@ -50,11 +50,12 @@ public static String InterpretarMarasmo(double pesoUsual,double pesoAtual){
    double valor;
    
    valor = Calcular_Marasmo(pesoUsual, pesoAtual);
-   if (valor >= 50 && valor < 80)
-        return "Marasmo Grave";
-    else if (valor >= 30 && valor < 50)
+   if (valor < 80){
+       return "Marasmo Grave";
+   }
+    else if (valor < 90)
         return "Marasmo Moderado";
-    else if (valor >= 20 && valor < 30)
+    else if (valor < 95)
         return "Marasmo Leve";
     else
         return "Nenhum";
