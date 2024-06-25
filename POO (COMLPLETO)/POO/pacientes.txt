@@ -1,0 +1,3 @@
+Juca Bala;85.500000;1.770000
+Maria do Rosario;61.300000;1.640000
+Martha das Flores;58.350000;1.600000
